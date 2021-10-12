@@ -1,0 +1,420 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Предыстория",
+        "steps": [
+          {
+            "result": {
+              "duration": 6018277000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 847602400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotBeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "Открыта Главная страница ДНС",
+            "match": {
+              "location": "steps.TelevizorySteps.startDriverAndOpenStartPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 652466200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotAfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Дано "
+          },
+          {
+            "result": {
+              "duration": 4709346000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 640451200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotBeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "Выполнен переход на страницу Телевизоры",
+            "match": {
+              "location": "steps.TelevizorySteps.openTelevizoryPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 937666900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotAfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "И "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T14:47:05.697Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5207701100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.DriverHooks.startDriverBeforeScenario()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Таблица с двумя колонками",
+        "description": "",
+        "id": "телевизоры;таблица-с-двумя-колонками",
+        "after": [
+          {
+            "result": {
+              "duration": 1671241300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.DriverHooks.stopDriverAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Сценарий",
+        "steps": [
+          {
+            "result": {
+              "duration": 592421400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 474338000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotBeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 53,
+            "name": "Установлена сортировка \"Сначала популярные\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Сначала популярные\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.TelevizorySteps.setSortBy(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 929659600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotAfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Дано "
+          },
+          {
+            "result": {
+              "duration": 4049877200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 702500200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotBeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 54,
+            "name": "Установлены фильтры из таблицы с двумя колонками",
+            "match": {
+              "location": "steps.TelevizorySteps.setFiltersFromTable2(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 560396500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotAfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Производитель",
+                  "Sony"
+                ]
+              },
+              {
+                "cells": [
+                  "Частота обновления экрана",
+                  "100 Гц"
+                ]
+              },
+              {
+                "cells": [
+                  "Тип подсветки экрана",
+                  "OLED"
+                ]
+              },
+              {
+                "cells": [
+                  "Минимальнная диагональ экрана",
+                  "60"
+                ]
+              },
+              {
+                "cells": [
+                  "Максимальнная диагональ экрана",
+                  "80"
+                ]
+              }
+            ],
+            "keyword": "И "
+          },
+          {
+            "result": {
+              "duration": 236168900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 418296600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotBeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 60,
+            "name": "Применены выбранные фильтры",
+            "match": {
+              "location": "steps.TelevizorySteps.applyFilters()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 543386300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotAfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Когда "
+          },
+          {
+            "result": {
+              "duration": 4009848200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 696495400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotBeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 61,
+            "name": "Выполнен переход на страницу первого товара из списка",
+            "match": {
+              "location": "steps.TelevizorySteps.selectFirstTV()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1163827100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotAfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "И "
+          },
+          {
+            "result": {
+              "duration": 21013000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1225871600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotBeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 62,
+            "name": "Проверить: В заголовке страницы отображается текст \"Sony\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sony\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.TelevizorySteps.assertTitleTelevizoryProduct(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 613436000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotAfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Тогда "
+          },
+          {
+            "result": {
+              "duration": 1183842900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 533377600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotBeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 63,
+            "name": "Перейти в таблицу Характеристики выбранного продукта",
+            "match": {
+              "location": "steps.TelevizorySteps.linkCharacteristicsTable()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1185844300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotAfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "И "
+          },
+          {
+            "result": {
+              "duration": 110079300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 363254600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotBeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 64,
+            "name": "Проверить: В таблице отображается Модель телевизора \"Sony\" и Частота обновления экрана \"100 Гц\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sony\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"100 Гц\"",
+                  "offset": 87
+                }
+              ],
+              "location": "steps.TelevizorySteps.assertModelTelevizoryProduct(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 321226800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ScreenShotHooks.takeScreenShotAfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Тогда "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@table2"
+          }
+        ]
+      }
+    ],
+    "name": "Телевизоры",
+    "description": "  Я как посетитель сайта ДНС хочу просматривать раздел со смартфонами.\n  Это позволит мне выбрать понравившийся смартфон и просмотреть его характеристики.",
+    "id": "телевизоры",
+    "keyword": "Функция",
+    "uri": "classpath:features/Televizory.feature",
+    "tags": []
+  }
+]
